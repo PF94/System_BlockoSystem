@@ -1,0 +1,8 @@
+<font:Palatino Linotype:24>Support<font:Palatino Linotype:18>
+You can get support for problems you encounter with RTB from a number of places:
+
+<font:Palatino Linotype Bold:20>RTB Forums<font:Palatino Linotype:18>
+The forums are located at <a:forum.returntoblockland.com>http://forum.returntoblockland.com/</a> where you can register and make a thread in the Helpdesk forum.
+
+<font:Palatino Linotype Bold:20>Email<font:Palatino Linotype:18>
+You can email <font:Palatino Linotype Bold:18>support@returntoblockland.com <font:Palatino Linotype:18>regarding any problems or questions you have.

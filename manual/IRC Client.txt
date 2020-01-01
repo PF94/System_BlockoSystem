@@ -1,0 +1,40 @@
+<font:Palatino Linotype:24>IRC Client<font:Palatino Linotype:18>
+The IRC Client allows you to connect to our irc channel (irc.centralchat.net, #rtb) where you'll be able to talk with other people playing RTB. By default, you will connect automatically to the irc channel with your net name and _RTB added to the end.
+
+<lmargin:20><font:Palatino Linotype Bold:20>Private Messaging<font:Palatino Linotype:18>
+Just double-click a name in the users list to open a chat session with them.
+
+<font:Palatino Linotype Bold:20>Options<font:Palatino Linotype:18>
+There are various options for the IRC in the RTB Options window:
+- <spush><font:Palatino Linotype Bold:18>Automatically Connect<spop> - This will auto-connect you to the irc when you start up.
+- <spush><font:Palatino Linotype Bold:18>Receive PMs<spop> - If disabled, you will not receive pms from users.
+- <spush><font:Palatino Linotype Bold:18>Audio notify of PM<spop> - This will play a sound when you receive a pm.
+- <spush><font:Palatino Linotype Bold:18>Visual notify of PM<spop> - This will show a popup in the bottom right corner of your screen which you can click on to view your message.
+- <spush><font:Palatino Linotype Bold:18>IRC Channel to join<spop> - This is the channel you will join when the IRC connects.
+
+There is also an option on the IRC window itself:
+- <spush><font:Palatino Linotype Bold:18>Filter Non-RTB Users<spop> - This will hide most of the non-rtb users from the IRC so you won't see their messages, or get their pms.
+
+<font:Palatino Linotype Bold:20>Register your Nickname<font:Palatino Linotype:18>
+You can register your nickname by doing the following command:
+
+/msg NickServ Register password email
+
+And you can then tick Custom Username at the bottom of the IRC and enter your username and the password you registered. If you find someone using your nickname you can kick them by doing:
+
+/msg NickServ Release Username Password
+
+And then you can disconnect and reconnect for your nickname to take effect.
+
+<font:Palatino Linotype Bold:20>Commands<font:Palatino Linotype:18>
+There are various commands that can be used in the irc. If you've used irc before you should be familiar with them. The main ones you'll want to know are the following:
+- <spush><font:Palatino Linotype Bold:18>/join <channel><spop> - This will connect you to the channel you requested.
+- <spush><font:Palatino Linotype Bold:18>/part <channel><spop> - This will disconnect you from your current channel.
+- <spush><font:Palatino Linotype Bold:18>/nick <name><spop> - This will change your nickname to the name specified.
+- <spush><font:Palatino Linotype Bold:18>/whois <name><spop> - This will give you information on the user specified.
+- <spush><font:Palatino Linotype Bold:18>/slap<spop> - This will slap whoever you have selected in the users list.
+- <spush><font:Palatino Linotype Bold:18>/msg <name> <message><spop> - This will send a message to whoever you specified.
+- <spush><font:Palatino Linotype Bold:18>/me <message><spop> - This will perform an action in the irc like "* YourName <message>"
+- <spush><font:Palatino Linotype Bold:18>/action <message><spop> - The same as above.
+- <spush><font:Palatino Linotype Bold:18>/ignore <name><spop> - This will ignore all messages ans PMs from that person.
+- <spush><font:Palatino Linotype Bold:18>/unignore <name><spop> - This will stop ignoring messages from that person.

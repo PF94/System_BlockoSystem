@@ -1,0 +1,29 @@
+<font:Palatino Linotype:32>Credits<font:Palatino Linotype:18>
+A list of people who have helped in the production of RTB.
+
+<lmargin:20%><font:Palatino Linotype:24>Development
+<lmargin:40%><font:Palatino Linotype:20>Ephialtes (Programming & GUI)
+Mocheeze (Graphics)
+Wedge (Documentation)
+
+<lmargin:20%><font:Palatino Linotype:24>Support Team
+<lmargin:40%><font:Palatino Linotype:20>BlockBot
+Mod Bot
+Save Daemon
+
+<lmargin:20%><font:Palatino Linotype:24>Testing
+<lmargin:40%><font:Palatino Linotype:20>Mocheeze
+Nitramtj
+Rotondo
+Pimpin
+Kaje
+Hezkore
+Ephialtes
+Trader
+Resonance_Cascade
+Sumz
+TheGeek
+Barnabas
+LoserHero
+Wedge
+

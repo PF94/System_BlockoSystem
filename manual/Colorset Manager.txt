@@ -1,0 +1,4 @@
+<font:Palatino Linotype:24>Colorset Manager<font:Palatino Linotype:18>
+The Colorset Manager allows you to change your existing colorset before you start your server. You can access the Colorset Manager by clicking Color Manager on the Start Server screen.
+
+Just select a colorset from the left menu and press Save. You can view a preview of the colorset on the right.

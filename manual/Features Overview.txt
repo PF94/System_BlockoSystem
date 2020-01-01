@@ -1,0 +1,20 @@
+<font:Palatino Linotype:24>Features Overview<font:Palatino Linotype:18>
+The more notable features have their own manual page for explaining how to use them, however a list of the features and a brief description is also provided here. If you're a developer, you can find information on how to integrate your content into the RTB system in the next section.
+
+<lmargin:20><font:Palatino Linotype Bold:20>Mod Manager<font:Palatino Linotype:18>
+The Mod Manager allows you to connect to our online Downloads Manager which can be accessed via our forums at http://forum.returntoblockland.com/ - if you have registered on our forums you'll be able to comment and rate on files as well as submit your own. You can read more on the features available in the Mod Manager section of this manual.
+
+<font:Palatino Linotype Bold:20>IRC Client<font:Palatino Linotype:18>
+The IRC Client enables users to connect to our IRC channel (on centralchat.net, #rtb) and features tabbed private messaging and is able to understand most IRC traffic. It even allows you to receive notifications in-game. (This is configurable via the RTB Options panel)
+
+<font:Palatino Linotype Bold:20>Server Control<font:Palatino Linotype:18>
+Server Control now gives the Super Admin on your server much more control over how the server runs. There are 3 main aspects of your server that it allows you to control; Server Settings, Admins and Mod Preferences. Each of these is described more in-depth in the Server Control section.
+
+<font:Palatino Linotype Bold:20>Colorset Management<font:Palatino Linotype:18>
+Colorset Management allows you to download color sets for your server by placing them in your add-ons folder instead of overwriting the default one. You are then able to change the color set you use before you start your server.
+
+<font:Palatino Linotype Bold:20>Activity Tracking<font:Palatino Linotype:18>
+One of the first features in RTB was the ability to see what players were on RTB, where they were, and how long they'd been playing. This has now been extended for servers too, and from the RTB forums you can see which servers are running RTB, and a bunch of information about what players are in the server.
+
+<font:Palatino Linotype Bold:20>Info Tips<font:Palatino Linotype:18>
+You may have noticed the Infomaniac has appeared on your loading screen. He will provide you with tips on how to use Blockland to its full potential, and he will even give you tips on other add-ons you've installed.

@@ -1,0 +1,98 @@
+<font:Palatino Linotype:24>RTB Timeline<font:Palatino Linotype:18>
+Here is, as far as I can tell, the definitive RTB timeline. These are the most accurate dates that anyone will ever find, and anyone who says otherwise is itching for a fight. The timeline will be presented as a list, with a short note on why that date was important. The number indicated afterwards in parentheses contains little snippets of information cut from help files, websites, and posts, interjected with personal comments.
+
+<spush><font:Palatino Linotype Bold:18>June 23, 2005<spop><just:right>RTB 1.0 released (1)<just:left>
+<spush><font:Palatino Linotype Bold:18>June 28, 2005<spop><just:right>RTB 1.01 released<just:left>
+<spush><font:Palatino Linotype Bold:18>July 15, 2005<spop><just:right>RTB forums go online<just:left>
+<spush><font:Palatino Linotype Bold:18>July 17, 2005<spop><just:right>RTB 1.02 released (2)<just:left>
+<spush><font:Palatino Linotype Bold:18>Aug 21 2005<spop><just:right>RTB Forums and website go Public<just:left>
+<spush><font:Palatino Linotype Bold:18>September 2, 2005<spop><just:right>RTB 1.03 released (3)<just:left>
+<spush><font:Palatino Linotype Bold:18>September 3, 2005<spop><just:right>RTB 1.03.2 Released<just:left>
+<spush><font:Palatino Linotype Bold:18>October 31, 2005<spop><just:right>Return to Blockland Browser IRC Applet goes public<just:left>
+<spush><font:Palatino Linotype Bold:18>December 28, 2005<spop><just:right>RTB RSS feed online<just:left>
+<spush><font:Palatino Linotype Bold:18>March 04, 2006<spop><just:right>RTB 1.04 Released - Features the RTB Update Alert System (4)<just:left>
+<spush><font:Palatino Linotype Bold:18>March 22, 2006<spop><just:right>RTB 1.041 Patch<just:left>
+<spush><font:Palatino Linotype Bold:18>March 30, 2006<spop><just:right>RTB 1.042 Patch<just:left>
+<spush><font:Palatino Linotype Bold:18>April 1, 2006<spop><just:right>April Fools Joke, see excerpt (5) below<just:left>
+<spush><font:Palatino Linotype Bold:18>June 12, 2006<spop><just:right>RTB 1.044 Patch<just:left>
+<spush><font:Palatino Linotype Bold:18>June 15, 2006<spop><just:right>RTB 1.045 Patch<just:left>
+<spush><font:Palatino Linotype Bold:18>February 14, 2007<spop><just:right>RTB 1051, test of an auto-updater, see excerpt below (6)<just:left>
+<spush><font:Palatino Linotype Bold:18>August 25, 2008<spop><just:right>RTB2 enters closed beta (7)<just:left>
+<spush><font:Palatino Linotype Bold:18>November 3, 2008<spop><just:right>RTB2 is released<just:left>
+
+<font:Palatino Linotype:24>Appendix<font:Palatino Linotype:18>
+<spush><font:Palatino Linotype Bold:18>(1)<spop>
+Credits:
+Rotondo - Loads of new models, textures, decals. Coding.
+ReD_eYe - Coding
+
+With thanks to:
+Skizot, for a number of his weapons and models.
+Ephialtes, for various models and general help.
+Djy1991, for testing and numerous ideas.
+
+This is the version that added money. Yes, this is where "You were given $tfu dollars," comes from.
+
+<spush><font:Palatino Linotype Bold:18>(2)<spop>
+Features:
+Cops and Robbers Mode
+Editor Wand
+3 new weapons - pick axe, blaster, pistol.
+New bricks, by Rotondo
+New decals, by Mocheeze
+Buying Items
+Sitting Down
+Elevators and doors
+
+This was the version that gave birth to arguably some of RTB’s most famous and loved features, the editor wand, cops and robbers and movers. 
+
+<spush><font:Palatino Linotype Bold:18>(3)<spop>
+Features:
+Movers now have triggers and can rotate.
+The remote bomb and plunger.
+Road plates.
+RTB Isles and Celestial Dreams created.
+New paint colors.
+Brick ghosts are based on the model now, instead of a weird blue thing that doesn’t accurately show you the shape of the brick.
+The jail system.
+Keys were added, you could lock doors.
+
+Credits:
+Rotondo - Loads of new models, textures, decals. Coding.
+ReD_eYe - Coding.
+Ephialtes - Coding and modelling.
+Mocheese - Copius amounts of decals.
+
+With thanks to:
+Skizot, for a number of his weapons and models.
+Djy1991, for testing and numerous ideas.
+TommyLM, for making the sexy background.
+
+Hey, Ephialtes and Mocheeze both graduated from the “special thanks” section to the full credits! Also, we see the development of RTB’s background, produced by “TommyLM”.
+
+<spush><font:Palatino Linotype Bold:18>(4)<spop>
+Here we see emergence of the RTB updater. Possibly the most annoying feature ever. When the website was moved to a new server, the auto-updater kept popping up every start up. Despite later patches, it never seemed to quite get fixed.
+
+<spush><font:Palatino Linotype Bold:18>(5)<spop>
+Hello RTB users. We have some unhappy news. We're closing down RTB forever :( . Version 1.04 was the last one. Many of you know that we've been talking about shutting down for a couple weeks now, so this might not be a surprise to some of you. Just because we're quitting Blockland doesn't mean that you have to also. There is another mod pack out there that you will enjoy just as much.
+
+AiO is probably the best mod out there beside RTB. AiO stands for "All in One", so you know that you'll still be getting a very full experience in Blockland. They have many of the features that we do, like the IRC chat. They also have additional bricks, and WAY more maps than us. Why would we tell you to use AiO? Because it's really the only other alternative to RTB that would be worth downloading. And the guys that make AiO are a good bunch of folks that are easy to get along with. :)
+
+We're sorry if this is disappointing news, it wasn't easy to come to this decision. Maybe we will start up again when Retail Blockland is released. Until then, we'll see you around in AiO!
+
+- Astro, BlueGreen, Ephialtes, Mocheeze, Nitramtj and Rititundo.
+
+The forums were down as well, but this wasn’t intended to be part of the joke- they deleted them on accident.
+
+<spush><font:Palatino Linotype Bold:18>(6)<spop>
+Never released publicly, this was an auto-updater test.
+
+Thanks for downloading RTB 1051!
+New features include:
+- A new folder called Fork in your client folder.
+- A text document with some stupid text in it.
+
+Had development continued, the mod would have checked to see if the mod version number was the same as the RTB server’s. If it wasn’t, it would automatically install the latest version. This is basically the same system used in RTB2.
+
+<spush><font:Palatino Linotype Bold:18>(7)<spop>
+For the first time in nearly 2 years, RTB’s beta testers had something to test. Those that weren’t dead returned to test the latest version. It was released over SVN, and for the first time ever, beta testers could get the latest version instantly and give feedback on changes made quickly. Now the SVN is down- RTB automatically updates.

@@ -1,0 +1,282 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiControl(RTB_ServerInformation) {
+   profile = "GuiDefaultProfile";
+   horizSizing = "width";
+   vertSizing = "height";
+   position = "0 0";
+   extent = "800 600";
+   minExtent = "8 8";
+   visible = "1";
+
+   new GuiWindowCtrl() {
+      profile = "GuiWindowProfile";
+      horizSizing = "center";
+      vertSizing = "center";
+      position = "79 104";
+      extent = "642 391";
+      minExtent = "8 2";
+      visible = "1";
+      command = "canvas.popDialog(RTB_ServerInformation);";
+      accelerator = "escape";
+      text = "Server Information";
+      maxLength = "255";
+      resizeWidth = "0";
+      resizeHeight = "1";
+      canMove = "1";
+      canClose = "1";
+      canMinimize = "1";
+      canMaximize = "1";
+      minSize = "50 50";
+      closeCommand = "canvas.popDialog(RTB_ServerInformation);";
+
+      new GuiSwatchCtrl() {
+         profile = "GuiDefaultProfile";
+         horizSizing = "right";
+         vertSizing = "bottom";
+         position = "232 47";
+         extent = "387 294";
+         minExtent = "8 2";
+         visible = "1";
+         color = "150 150 150 255";
+      };
+      new GuiSwatchCtrl() {
+         profile = "GuiDefaultProfile";
+         horizSizing = "right";
+         vertSizing = "bottom";
+         position = "9 47";
+         extent = "210 294";
+         minExtent = "8 2";
+         visible = "1";
+         color = "150 150 150 255";
+      };
+      new GuiSwatchCtrl() {
+         profile = "GuiDefaultProfile";
+         horizSizing = "right";
+         vertSizing = "bottom";
+         position = "10 48";
+         extent = "208 292";
+         minExtent = "8 2";
+         visible = "1";
+         color = "235 235 235 255";
+
+         new GuiScrollCtrl() {
+            profile = "RTBMM_ScrollProfile";
+            horizSizing = "right";
+            vertSizing = "bottom";
+            position = "1 1";
+            extent = "206 290";
+            minExtent = "8 2";
+            visible = "1";
+            willFirstRespond = "1";
+            hScrollBar = "alwaysOff";
+            vScrollBar = "alwaysOn";
+            constantThumbHeight = "0";
+            childMargin = "0 0";
+            rowHeight = "40";
+            columnWidth = "30";
+
+            new GuiTextListCtrl(RTBSI_PlayerList) {
+               profile = "GuiTextListProfile";
+               horizSizing = "right";
+               vertSizing = "bottom";
+               position = "1 1";
+               extent = "196 144";
+               minExtent = "8 2";
+               visible = "1";
+               enumerate = "0";
+               resizeCell = "1";
+               columns = "-10 0 11 126 166";
+               fitParentWidth = "1";
+               clipColumnText = "0";
+            };
+         };
+      };
+      new GuiSwatchCtrl() {
+         profile = "GuiDefaultProfile";
+         horizSizing = "right";
+         vertSizing = "bottom";
+         position = "233 48";
+         extent = "385 292";
+         minExtent = "8 2";
+         visible = "1";
+         color = "235 235 235 255";
+      };
+      new GuiTextCtrl() {
+         profile = "GuiTextProfile";
+         horizSizing = "right";
+         vertSizing = "bottom";
+         position = "26 29";
+         extent = "27 18";
+         minExtent = "8 2";
+         visible = "1";
+         text = "Name";
+         maxLength = "255";
+      };
+      new GuiTextCtrl() {
+         profile = "GuiTextProfile";
+         horizSizing = "right";
+         vertSizing = "bottom";
+         position = "143 29";
+         extent = "28 18";
+         minExtent = "8 2";
+         visible = "1";
+         text = "BL_ID";
+         maxLength = "255";
+      };
+      new GuiTextCtrl() {
+         profile = "GuiTextProfile";
+         horizSizing = "right";
+         vertSizing = "bottom";
+         position = "181 29";
+         extent = "29 18";
+         minExtent = "8 2";
+         visible = "1";
+         text = "Score";
+         maxLength = "255";
+      };
+      new GuiBitmapButtonCtrl() {
+         profile = "BlockButtonProfile";
+         horizSizing = "right";
+         vertSizing = "bottom";
+         position = "531 351";
+         extent = "100 30";
+         minExtent = "8 2";
+         visible = "1";
+         command = "JoinServerGui.join();";
+         accelerator = "enter";
+         text = "Join";
+         groupNum = "-1";
+         buttonType = "PushButton";
+         bitmap = "base/client/ui/button1";
+         lockAspectRatio = "0";
+         alignLeft = "0";
+         overflowImage = "0";
+         mKeepCached = "1";
+         mColor = "255 255 255 255";
+            wrap = "0";
+      };
+      new GuiBitmapButtonCtrl() {
+         profile = "BlockButtonProfile";
+         horizSizing = "right";
+         vertSizing = "top";
+         position = "9 351";
+         extent = "100 30";
+         minExtent = "8 2";
+         visible = "1";
+         command = "canvas.popDialog(RTB_ServerInformation);";
+         accelerator = "escape";
+         text = "<< Back";
+         groupNum = "-1";
+         buttonType = "PushButton";
+         bitmap = "base/client/ui/button1";
+         lockAspectRatio = "0";
+         alignLeft = "0";
+         overflowImage = "0";
+         mKeepCached = "1";
+         mColor = "255 255 255 255";
+            wrap = "0";
+      };
+      new GuiScrollCtrl(RTBSI_ModScroll) {
+         profile = "RTBMM_ScrollProfile";
+         horizSizing = "right";
+         vertSizing = "bottom";
+         position = "233 48";
+         extent = "399 292";
+         minExtent = "8 2";
+         visible = "1";
+         willFirstRespond = "1";
+         hScrollBar = "alwaysOff";
+         vScrollBar = "alwaysOn";
+         constantThumbHeight = "0";
+         childMargin = "0 0";
+         rowHeight = "40";
+         columnWidth = "30";
+      };
+      new GuiSwatchCtrl(RTBSI_LoadSwatch) {
+         profile = "GuiDefaultProfile";
+         horizSizing = "right";
+         vertSizing = "bottom";
+         position = "9 34";
+         extent = "625 310";
+         minExtent = "8 2";
+         visible = "1";
+         color = "200 200 200 200";
+
+         new GuiAnimatedBitmapCtrl() {
+            profile = "GuiDefaultProfile";
+            horizSizing = "center";
+            vertSizing = "center";
+            position = "297 139";
+            extent = "31 31";
+            minExtent = "8 2";
+            visible = "1";
+            bitmap = "./images/image_loadRing";
+            wrap = "0";
+            lockAspectRatio = "0";
+            alignLeft = "0";
+            overflowImage = "0";
+            keepCached = "0";
+            framesPerSecond = "15";
+            numFrames = "8";
+            skipFrames = "0";
+         };
+         new GuiMLTextCtrl() {
+            profile = "GuiMLTextProfile";
+            horizSizing = "center";
+            vertSizing = "bottom";
+            position = "193 182";
+            extent = "238 12";
+            minExtent = "8 2";
+            visible = "1";
+            lineSpacing = "2";
+            allowColorChars = "0";
+            maxChars = "-1";
+            text = "<just:center><color:666666><font:Verdana:12>Loading Server Information";
+            maxBitmapHeight = "-1";
+            selectable = "1";
+         };
+      };
+      new GuiSwatchCtrl(RTBSI_FailSwatch) {
+         profile = "GuiDefaultProfile";
+         horizSizing = "right";
+         vertSizing = "bottom";
+         position = "9 34";
+         extent = "625 310";
+         minExtent = "8 2";
+         visible = "0";
+         color = "200 200 200 200";
+
+         new GuiBitmapCtrl() {
+            profile = "GuiDefaultProfile";
+            horizSizing = "center";
+            vertSizing = "center";
+            position = "297 139";
+            extent = "31 31";
+            minExtent = "8 2";
+            visible = "1";
+            bitmap = "./images/image_loadRing_fail";
+            wrap = "0";
+            lockAspectRatio = "0";
+            alignLeft = "0";
+            overflowImage = "0";
+            keepCached = "0";
+         };
+         new GuiMLTextCtrl() {
+            profile = "GuiMLTextProfile";
+            horizSizing = "center";
+            vertSizing = "bottom";
+            position = "147 182";
+            extent = "330 12";
+            minExtent = "8 2";
+            visible = "1";
+            lineSpacing = "2";
+            allowColorChars = "0";
+            maxChars = "-1";
+            text = "<just:center><color:666666><font:Verdana:12>There is no information available for this server.";
+            maxBitmapHeight = "-1";
+            selectable = "1";
+         };
+      };
+   };
+};
+//--- OBJECT WRITE END ---

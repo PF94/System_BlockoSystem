@@ -1,0 +1,4 @@
+<font:Palatino Linotype:24>Server Information<font:Palatino Linotype:18>
+This window will be opened when you try to join a server that has RTB. It will download a list of the server's players and the add-ons the server has.
+
+<lmargin:20>The mods list shows you all the add-ons the server has that you don't have and will even show you which ones have shapes or sounds that you'd have to download if you joined. If the mod they're using was downloaded from RTB, you'll be able to press the little save disk icon to download it to avoid downloading when you join the server.

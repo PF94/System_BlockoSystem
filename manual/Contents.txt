@@ -1,0 +1,14 @@
+images/icons/house|Introduction|Introduction.txt
+images/icons/world|History of RTB|History.txt
+<sep>
+images/icons/doc3|Feature Overview|Features Overview.txt
+images/icons/doc3|Mod Manager|Mod Manager.txt
+images/icons/doc3|IRC Client|IRC Client.txt
+images/icons/doc3|Server Control|Server Control.txt
+images/icons/doc3|Colorset Manager|Colorset Manager.txt
+images/icons/doc3|Server Information|Server Information.txt
+<sep>
+images/icons/doc2|Dedicated Servers|Dedicated.txt
+<sep>
+images/icons/man|Credits|Credits.txt
+images/icons/heart|Support|Support.txt

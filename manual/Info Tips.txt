@@ -1,0 +1,17 @@
+<font:Palatino Linotype:24>Info Tips<font:Palatino Linotype:18>
+Info Tips can be added using the following function:
+
+<font:Palatino Linotype Bold:18>RTB_addInfoTip(tip,no-bind tip,category)
+
+<font:Palatino Linotype:18>The first parameter is for a standard tip, and you can use <key:bindname> in your tip to display a bind. In the event that the key is unbound the no-bind tip will be displayed (and if you don't have one of those, it will move onto the next tip). The category will be used in RTB 2.1 to enable or disable tips from a certain category.
+
+Here is some example code you could put into your client.cs file of your Add-On:
+
+<font:Courier New:14>if(isFile("Add-Ons/System_ReturnToBlockland/server.cs"))
+{
+   if(!$RTB::RTBR_InfoTips_Hook)
+    exec("Add-Ons/System_ReturnToBlockland/RTBR_InfoTips_Hook.cs");
+   RTB_addInfoTip("Press <key:showPlayerList> to bring up the player trust box.","It looks like you can't open the player menu! Open the options menu and assign a key to it!","Default");
+}
+
+<font:Palatino Linotype Bold:18>This code must be put into the client.cs NOT the server.cs

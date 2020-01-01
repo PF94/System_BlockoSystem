@@ -1,0 +1,112 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiControl(RTB_ModUpdates) {
+   profile = "GuiDefaultProfile";
+   horizSizing = "right";
+   vertSizing = "bottom";
+   position = "0 0";
+   extent = "640 480";
+   minExtent = "8 8";
+   visible = "1";
+      helpTag = "0";
+
+   new GuiWindowCtrl() {
+      profile = "BlockWindowProfile";
+      horizSizing = "center";
+      vertSizing = "center";
+      position = "132 87";
+      extent = "376 306";
+      minExtent = "8 8";
+      visible = "1";
+      text = "Add-On Updates";
+      maxLength = "255";
+      resizeWidth = "0";
+      resizeHeight = "0";
+      canMove = "1";
+      canClose = "1";
+      canMinimize = "0";
+      canMaximize = "0";
+      minSize = "50 50";
+      closeCommand = "Canvas.popDialog(RTB_ModUpdates);";
+         helpTag = "0";
+
+      new GuiSwatchCtrl() {
+         profile = "GuiDefaultProfile";
+         horizSizing = "right";
+         vertSizing = "bottom";
+         position = "12 50";
+         extent = "336 205";
+         minExtent = "8 2";
+         visible = "1";
+         color = "150 150 150 255";
+
+         new GuiSwatchCtrl() {
+            profile = "GuiDefaultProfile";
+            horizSizing = "right";
+            vertSizing = "bottom";
+            position = "1 1";
+            extent = "334 203";
+            minExtent = "8 2";
+            visible = "1";
+            color = "255 255 255 255";
+         };
+      };
+      new GuiMLTextCtrl() {
+         profile = "GuiMLTextProfile";
+         horizSizing = "right";
+         vertSizing = "bottom";
+         position = "14 32";
+         extent = "328 12";
+         minExtent = "8 2";
+         visible = "1";
+         text = "<font:Verdana:12><color:444444>Updates are available for the following add-ons you have:";
+         maxLength = "255";
+      };
+      new GuiBitmapButtonCtrl() {
+         profile = "GuiDefaultProfile";
+         horizSizing = "center";
+         vertSizing = "bottom";
+         position = "147 267";
+         extent = "82 25";
+         minExtent = "8 2";
+         visible = "1";
+         text = " ";
+         groupNum = "-1";
+         command = "RTBMM_downloadUpdates();";
+         buttonType = "PushButton";
+         bitmap = "./images/buttons/large/btnUpdate";
+         lockAspectRatio = "0";
+         alignLeft = "0";
+         overflowImage = "0";
+         mKeepCached = "0";
+         mColor = "255 255 255 255";
+      };
+      new GuiScrollCtrl() {
+         profile = "RTBMM_ScrollProfile";
+         horizSizing = "right";
+         vertSizing = "bottom";
+         position = "13 51";
+         extent = "350 203";
+         minExtent = "8 2";
+         visible = "1";
+         willFirstRespond = "1";
+         hScrollBar = "alwaysOff";
+         vScrollBar = "alwaysOn";
+         constantThumbHeight = "0";
+         childMargin = "0 0";
+         rowHeight = "40";
+         columnWidth = "30";
+
+         new GuiSwatchCtrl(RTB_ModUpdates_Window) {
+            profile = "GuiDefaultProfile";
+            horizSizing = "right";
+            vertSizing = "bottom";
+            position = "1 1";
+            extent = "332 201";
+            minExtent = "8 2";
+            visible = "1";
+            color = "0 0 0 0";
+         };
+      };
+   };
+};
+//--- OBJECT WRITE END ---

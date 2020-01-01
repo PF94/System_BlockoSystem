@@ -1,0 +1,5 @@
+<font:Palatino Linotype:24>Colorsets<font:Palatino Linotype:18>
+RTB establishes a new way for people to release Colorset Add-ons. Here are the requirements:
+
+> The colorSet.txt must be placed in a .zip named Colorset_YourName.zip
+> The zip must contain a description.txt with both a Title and Author field.

@@ -1,0 +1,40 @@
+<font:Palatino Linotype:24>Mod Manager<font:Palatino Linotype:18>
+The Mod Manager allows you to browse the RTB Downloads System from within Blockland and then download and commment or rate on the add-ons within it. Read on for more detailed information regarding how to use it.
+
+<lmargin:20><font:Palatino Linotype Bold:20>News Feed<font:Palatino Linotype:18><lmargin:25>
+The news feed is the best way for RTB Staff to give you information. Each day you'll get a post from our Mod Bot to inform you of any new additions to the Downloads System that you may want to check out. She'll also inform you of any updates that are available for add-ons you may have. You can view the comments posted for these news feeds by clicking the comments text in the bottom right, where you can also post your own.
+
+<lmargin:20><font:Palatino Linotype Bold:20>Browsing<font:Palatino Linotype:18><lmargin:25>
+Browsing add-ons can be done in a number of ways using the links along the left side of the Mod Manager.
+
+<lmargin:30><font:Palatino Linotype Bold:18>Browse<font:Palatino Linotype:18> allows you to view files sorted into categories based on type. This makes it easy to find a certain weapon you may be looking for, or some new exciting vehicles to download.
+
+<lmargin:30><font:Palatino Linotype Bold:18>Packs<font:Palatino Linotype:18> are collections of add-ons that are created by Mod Reviewers. Generally these will consist of well made add-ons that compliment eachother or can be used for a themed server. These don't download any different from a normal add-on, it just allows you to view similar add-ons all in one place.
+
+<lmargin:30><font:Palatino Linotype Bold:18>Toplist<font:Palatino Linotype:18> shows the top 10 rated files on our Downloads System so you can see what's popular with our users.
+
+<lmargin:30><font:Palatino Linotype Bold:18>Search<font:Palatino Linotype:18> lets you find add-ons using a variety of methods, such as by category, author and keywords. You can then sort your results by certain criteria like rating, number of downloads or how recently it was submitted.
+
+<lmargin:30><font:Palatino Linotype Bold:18>Recent<font:Palatino Linotype:18> will display all the files submitted in the past 5 days. These files will also appear in yellow at the top of categories when browsing normally, to give new add-ons some exposure to our users.
+
+<lmargin:30><font:Palatino Linotype Bold:18>View All<font:Palatino Linotype:18> allows you to view every single file in the Downloads System sorted in alphabetical order.<lmargin:20>
+
+While browsing, you'll sometimes notice a few things. A small gold star next to the icon for a file means you already have this add-on installed, while a yellow background for an add-on means that it has been submitted in the past 5 days so it is recent - and will be sorted to the top of category views.
+
+<lmargin:20><font:Palatino Linotype Bold:20>Comments and Ratings<font:Palatino Linotype:18><lmargin:25>
+If you have registered on our forums at <a:forum.returntoblockland.com>http://forum.returntoblockland.com/</a> you will be automatically logged into your account when you use the Mod Manager, as you will see in the title bar of the window. If you're logged in, you'll notice that the "Comment" and "Rate" buttons are available to you when viewing files. These allow you to give your feedback and experiences with the add-on and to reward good add-ons with a high rating to boost their position in the rankings.
+
+<lmargin:20><font:Palatino Linotype Bold:20>Reporting<font:Palatino Linotype:18><lmargin:25>
+You'll notice a number of buttons scattered around the place for reporting add-ons. When hovering over an add-on, you'll notice a yellow triangle which you can click on. This allows you to report the add-on to our Mod Reviewers if there is a problem with them, for example some sort of malicious code or if it simply doesn't work at all. When you download an add-on you will also get the option to report a bug when viewing it in the "Your Mods" view. This sends a report to the creator of the add-on to sort out at their own discretion.
+
+<lmargin:20><font:Palatino Linotype Bold:20>Add-On Management<font:Palatino Linotype:18><lmargin:25>
+By clicking the "YourMods" link in the Mod Manager you'll be able to see all the add-ons you've currently got installed. You will even be able to see the add-ons that come installed by default, and add-ons not downloaded through RTB. You have a number of options that you can do with any RTB-downloaded add-ons you have.
+
+<lmargin:30><font:Palatino Linotype Bold:18>Enable/Disable<font:Palatino Linotype:18> will let you enable or disable that specific add-on from being loaded when you start a server. There are certain add-ons you will not be able to disable such as client-side add-ons, maps, colorsets and decals.<lmargin:20>
+
+<lmargin:30><font:Palatino Linotype Bold:18>Send Bug<font:Palatino Linotype:18> allows you to report any issues you find with the add-on directly to the add-on maker. You can set a priority or severity, a summary and then a more in-depth description with steps to replicate problems. Add-On makers will not be able to reply to these and are not obliged to read or fix any issues you mention.
+
+<lmargin:30><font:Palatino Linotype Bold:18>Update<font:Palatino Linotype:18> lets you manually search for updates for a specific add-on since you will only be notified of add-ons when you start up the game.<lmargin:20>
+
+<lmargin:30><font:Palatino Linotype Bold:18>Delete<font:Palatino Linotype:18> is a new feature that allows you to entirely remove a downloaded add-on from your Blockland install. This is irreversible so be careful!<lmargin:20>
+

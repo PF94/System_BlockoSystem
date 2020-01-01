@@ -1,0 +1,31 @@
+<font:Palatino Linotype:24>Dedicated Servers<font:Palatino Linotype:18>
+RTB can also be run on your dedicated server to allow people to see what players are on your server, or what add-ons you have. You will first need to enable RTB in the Add-Ons menu of the Start a Server window to make sure it gets loaded with the dedicated server.
+
+<lmargin:20><font:Palatino Linotype Bold:20>Help<font:Palatino Linotype:18>
+You can get a list of commands by typing rtbHelp(); into your dedicated server.
+
+<font:Palatino Linotype Bold:20>Setting Up RTB<font:Palatino Linotype:18>
+RTB requires you to enter your username as part of the authentication process for starting a server. The easiest way to do this is simply to join your own dedicated server, and it will say "RTB Authentication Successful" in the console. You should only ever have to do this once, unless you re-install.
+
+<font:Palatino Linotype Bold:20>Updating RTB<font:Palatino Linotype:18>
+You can update the RTB version for the dedicated server by typing checkRTBUpdates(); into your dedicated server.
+
+<font:Palatino Linotype Bold:20>Useful Dedicated Commands<font:Palatino Linotype:18>
+Here is a small list of handy commands that come by default in Blockland for servers:
+
+<font:Courier New:14>
+<lmargin:20>talk("message");
+<lmargin:30><font:Palatino Linotype:18>This will send a message to all the players on the server.<lmargin:20>
+<font:Courier New:14>
+listClients();
+<lmargin:30><font:Palatino Linotype:18>This will show a list of players and their BL IDs.<lmargin:20>
+<font:Courier New:14>
+kickID(bl_id);
+<lmargin:30><font:Palatino Linotype:18>This will kick the player on the server with the BL ID entered.<lmargin:20>
+<font:Courier New:14>
+banBLID(victimBL_ID, banTime in minutes, "reason");
+<lmargin:30><font:Palatino Linotype:18>This will ban the player on the server with the BL ID entered. Use -1 as a ban time for permanent.<lmargin:20>
+<font:Courier New:14>
+saveBricks("filename",save events,save ownership);
+<lmargin:30><font:Palatino Linotype:18>Saves all bricks on the server. Use 1 or 0 to save events or ownership.
+

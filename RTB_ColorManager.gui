@@ -1,0 +1,144 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiControl(RTB_ColorManager) {
+   profile = "GuiDefaultProfile";
+   horizSizing = "right";
+   vertSizing = "bottom";
+   position = "0 0";
+   extent = "640 480";
+   minExtent = "8 2";
+   visible = "1";
+
+   new GuiWindowCtrl() {
+      profile = "GuiWindowProfile";
+      horizSizing = "center";
+      vertSizing = "center";
+      position = "86 58";
+      extent = "467 364";
+      minExtent = "8 2";
+      visible = "1";
+      text = "Color Manager";
+      maxLength = "255";
+      resizeWidth = "0";
+      resizeHeight = "0";
+      canMove = "1";
+      canClose = "1";
+      canMinimize = "0";
+      canMaximize = "0";
+      minSize = "50 50";
+      closeCommand = "canvas.popDialog(RTB_ColorManager);";
+
+      new GuiBitmapCtrl() {
+         profile = "GuiDefaultProfile";
+         horizSizing = "right";
+         vertSizing = "bottom";
+         position = "210 38";
+         extent = "244 312";
+         minExtent = "8 2";
+         visible = "1";
+         wrap = "0";
+         lockAspectRatio = "0";
+         alignLeft = "0";
+         overflowImage = "0";
+         keepCached = "0";
+
+         new GuiSwatchCtrl(RTBCM_ColorsetPreview) {
+            profile = "GuiDefaultProfile";
+            horizSizing = "center";
+            vertSizing = "center";
+            position = "82 66";
+            extent = "80 180";
+            minExtent = "8 2";
+            visible = "1";
+            color = "0 0 0 0";
+         };
+      };
+      new GuiSwatchCtrl() {
+         profile = "GuiDefaultProfile";
+         horizSizing = "right";
+         vertSizing = "bottom";
+         position = "220 35";
+         extent = "43 9";
+         minExtent = "8 2";
+         visible = "1";
+         color = "200 200 200 255";
+      };
+      new GuiTextCtrl() {
+         profile = "GuiTextProfile";
+         horizSizing = "right";
+         vertSizing = "bottom";
+         position = "222 30";
+         extent = "40 18";
+         minExtent = "8 2";
+         visible = "1";
+         text = "Preview";
+         maxLength = "255";
+      };
+      new GuiScrollCtrl() {
+         profile = "GuiScrollProfile";
+         horizSizing = "right";
+         vertSizing = "bottom";
+         position = "13 38";
+         extent = "186 276";
+         minExtent = "8 2";
+         visible = "1";
+         willFirstRespond = "1";
+         hScrollBar = "alwaysOff";
+         vScrollBar = "alwaysOn";
+         constantThumbHeight = "0";
+         childMargin = "0 0";
+         rowHeight = "40";
+         columnWidth = "30";
+
+         new GuiSwatchCtrl(RTBCM_Sets) {
+            profile = "GuiDefaultProfile";
+            horizSizing = "right";
+            vertSizing = "bottom";
+            position = "1 1";
+            extent = "185 274";
+            minExtent = "8 2";
+            visible = "1";
+            color = "220 220 220 255";
+         };
+      };
+      new GuiBitmapButtonCtrl() {
+         profile = "BlockButtonProfile";
+         horizSizing = "right";
+         vertSizing = "bottom";
+         position = "12 321";
+         extent = "92 30";
+         minExtent = "8 2";
+         visible = "1";
+         command = "canvas.popDialog(RTB_ColorManager);";
+         accelerator = "escape";
+         text = "<< Back";
+         groupNum = "-1";
+         buttonType = "PushButton";
+         bitmap = "base/client/ui/button1";
+         lockAspectRatio = "0";
+         alignLeft = "0";
+         overflowImage = "0";
+         mKeepCached = "0";
+         mColor = "255 255 255 255";
+      };
+      new GuiBitmapButtonCtrl() {
+         profile = "BlockButtonProfile";
+         horizSizing = "right";
+         vertSizing = "bottom";
+         position = "108 321";
+         extent = "92 30";
+         minExtent = "8 2";
+         visible = "1";
+         command = "RTB_ColorManager.saveSet();";
+         text = "Load";
+         groupNum = "-1";
+         buttonType = "PushButton";
+         bitmap = "base/client/ui/button1";
+         lockAspectRatio = "0";
+         alignLeft = "0";
+         overflowImage = "0";
+         mKeepCached = "0";
+         mColor = "255 255 255 255";
+      };
+   };
+};
+//--- OBJECT WRITE END ---

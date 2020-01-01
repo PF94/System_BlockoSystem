@@ -1,0 +1,311 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiControl(RTB_Updater) {
+   profile = "GuiDefaultProfile";
+   horizSizing = "right";
+   vertSizing = "bottom";
+   position = "0 0";
+   extent = "640 480";
+   minExtent = "8 2";
+   visible = "1";
+
+   new GuiWindowCtrl() {
+      profile = "BlockWindowProfile";
+      horizSizing = "center";
+      vertSizing = "center";
+      position = "85 121";
+      extent = "469 238";
+      minExtent = "8 2";
+      visible = "1";
+      text = "RTB Updater";
+      maxLength = "255";
+      resizeWidth = "0";
+      resizeHeight = "0";
+      canMove = "1";
+      canClose = "1";
+      canMinimize = "0";
+      canMaximize = "0";
+      minSize = "50 50";
+      closeCommand = "canvas.popdialog(RTB_Updater);";
+
+      new GuiBitmapCtrl() {
+         profile = "GuiDefaultProfile";
+         horizSizing = "center";
+         vertSizing = "bottom";
+         position = "17 46";
+         extent = "434 150";
+         minExtent = "8 2";
+         visible = "1";
+         bitmap = "./images/image_logoGray";
+         wrap = "0";
+         lockAspectRatio = "0";
+         alignLeft = "0";
+         overflowImage = "0";
+         keepCached = "0";
+      };
+      new GuiSwatchCtrl() {
+         profile = "GuiDefaultProfile";
+         horizSizing = "right";
+         vertSizing = "bottom";
+         position = "15 32";
+         extent = "442 170";
+         minExtent = "8 2";
+         visible = "1";
+         color = "200 200 200 230";
+      };
+      new GuiBitmapButtonCtrl(RTBCU_UpdateButton) {
+         profile = "GuiDefaultProfile";
+         horizSizing = "right";
+         vertSizing = "bottom";
+         position = "378 201";
+         extent = "82 25";
+         minExtent = "8 2";
+         visible = "1";
+         command = "RTBCU_DownloadUpdate(\"2b2\");";
+         text = " ";
+         groupNum = "-1";
+         buttonType = "PushButton";
+         bitmap = "./images/buttons/large/btnUpdate";
+         lockAspectRatio = "0";
+         alignLeft = "0";
+         overflowImage = "0";
+         mKeepCached = "0";
+         mColor = "255 255 255 255";
+      };
+      new GuiBitmapButtonCtrl(RTBCU_ChangeLogButton) {
+         profile = "GuiDefaultProfile";
+         horizSizing = "right";
+         vertSizing = "bottom";
+         position = "10 201";
+         extent = "90 25";
+         minExtent = "8 2";
+         visible = "1";
+         text = " ";
+         groupNum = "-1";
+         buttonType = "PushButton";
+         bitmap = "./images/buttons/large/btnChangeLog";
+         lockAspectRatio = "0";
+         alignLeft = "0";
+         overflowImage = "0";
+         mKeepCached = "0";
+         mColor = "255 255 255 255";
+      };
+      new GuiProgressCtrl(RTBCU_Progress) {
+         profile = "GuiProgressProfile";
+         horizSizing = "right";
+         vertSizing = "bottom";
+         position = "10 151";
+         extent = "450 43";
+         minExtent = "8 2";
+         visible = "1";
+
+         new GuiTextCtrl(RTBCU_ProgressText) {
+            profile = "BlockButtonProfile";
+            horizSizing = "center";
+            vertSizing = "center";
+            position = "109 12";
+            extent = "231 18";
+            minExtent = "8 2";
+            visible = "1";
+            text = "Ready to Download";
+            maxLength = "255";
+         };
+      };
+      new GuiTextCtrl() {
+         profile = "BlockButtonProfile";
+         horizSizing = "center";
+         vertSizing = "bottom";
+         position = "62 33";
+         extent = "345 18";
+         minExtent = "8 2";
+         visible = "1";
+         text = "A new version of Return to Blockland is available!";
+         maxLength = "255";
+      };
+      new GuiTextCtrl() {
+         profile = "GuiTextProfile";
+         horizSizing = "right";
+         vertSizing = "bottom";
+         position = "13 53";
+         extent = "41 18";
+         minExtent = "8 2";
+         visible = "1";
+         text = "Version:";
+         maxLength = "255";
+      };
+      new GuiTextCtrl() {
+         profile = "GuiTextProfile";
+         horizSizing = "right";
+         vertSizing = "bottom";
+         position = "13 85";
+         extent = "76 18";
+         minExtent = "8 2";
+         visible = "1";
+         text = "Download Size:";
+         maxLength = "255";
+      };
+      new GuiTextCtrl() {
+         profile = "GuiTextProfile";
+         horizSizing = "right";
+         vertSizing = "bottom";
+         position = "13 129";
+         extent = "86 18";
+         minExtent = "8 2";
+         visible = "1";
+         text = "Download Speed:";
+         maxLength = "255";
+      };
+      new GuiTextCtrl() {
+         profile = "GuiTextProfile";
+         horizSizing = "right";
+         vertSizing = "bottom";
+         position = "13 69";
+         extent = "67 18";
+         minExtent = "8 2";
+         visible = "1";
+         text = "Release Date:";
+         maxLength = "255";
+      };
+      new GuiTextCtrl(RTBCU_Version) {
+         profile = "GuiTextProfile";
+         horizSizing = "right";
+         vertSizing = "bottom";
+         position = "113 53";
+         extent = "8 18";
+         minExtent = "8 2";
+         visible = "1";
+         text = "1";
+         maxLength = "255";
+      };
+      new GuiTextCtrl(RTBCU_Date) {
+         profile = "GuiTextProfile";
+         horizSizing = "right";
+         vertSizing = "bottom";
+         position = "113 69";
+         extent = "87 18";
+         minExtent = "8 2";
+         visible = "1";
+         text = "January 1st, 1970";
+         maxLength = "255";
+      };
+      new GuiTextCtrl(RTBCU_Size) {
+         profile = "GuiTextProfile";
+         horizSizing = "right";
+         vertSizing = "bottom";
+         position = "113 85";
+         extent = "35 18";
+         minExtent = "8 2";
+         visible = "1";
+         text = "1024kb";
+         maxLength = "255";
+      };
+      new GuiTextCtrl(RTBCU_Speed) {
+         profile = "GuiTextProfile";
+         horizSizing = "right";
+         vertSizing = "bottom";
+         position = "113 129";
+         extent = "18 18";
+         minExtent = "8 2";
+         visible = "1";
+         text = "N/A";
+         maxLength = "255";
+      };
+      new GuiTextCtrl() {
+         profile = "GuiTextProfile";
+         horizSizing = "right";
+         vertSizing = "bottom";
+         position = "13 113";
+         extent = "80 18";
+         minExtent = "8 2";
+         visible = "1";
+         text = "Download Done:";
+         maxLength = "255";
+      };
+      new GuiTextCtrl(RTBCU_Done) {
+         profile = "GuiTextProfile";
+         horizSizing = "right";
+         vertSizing = "bottom";
+         position = "113 113";
+         extent = "17 18";
+         minExtent = "8 2";
+         visible = "1";
+         text = "0kb";
+         maxLength = "255";
+      };
+   };
+};
+
+new GuiControl(RTBCU_ChangeLog) {
+   profile = "GuiDefaultProfile";
+   horizSizing = "right";
+   vertSizing = "bottom";
+   position = "0 0";
+   extent = "640 480";
+   minExtent = "8 8";
+   visible = "1";
+      helpTag = "0";
+
+   new GuiWindowCtrl() {
+      profile = "BlockWindowProfile";
+      horizSizing = "center";
+      vertSizing = "center";
+      position = "132 81";
+      extent = "376 318";
+      minExtent = "8 8";
+      visible = "1";
+      text = "Change Log";
+      maxLength = "255";
+      resizeWidth = "0";
+      resizeHeight = "0";
+      canMove = "1";
+      canClose = "1";
+      canMinimize = "0";
+      canMaximize = "0";
+      minSize = "50 50";
+      closeCommand = "Canvas.popDialog(RTBCU_ChangeLog);";
+         helpTag = "0";
+
+      new GuiScrollCtrl() {
+         profile = "GuiScrollProfile";
+         horizSizing = "right";
+         vertSizing = "bottom";
+         position = "7 51";
+         extent = "361 260";
+         minExtent = "8 2";
+         visible = "1";
+         willFirstRespond = "1";
+         hScrollBar = "alwaysOff";
+         vScrollBar = "alwaysOn";
+         constantThumbHeight = "0";
+         childMargin = "2 0";
+         rowHeight = "40";
+         columnWidth = "30";
+
+         new GuiMLTextCtrl(RTBCU_ChangeLog_Text) {
+            profile = "GuiMLTextProfile";
+            horizSizing = "right";
+            vertSizing = "bottom";
+            position = "1 1";
+            extent = "345 14";
+            minExtent = "8 2";
+            visible = "1";
+            lineSpacing = "2";
+            allowColorChars = "0";
+            maxChars = "-1";
+            maxBitmapHeight = "-1";
+            selectable = "1";
+         };
+      };
+      new GuiTextCtrl(RTBCU_ChangeLog_Title) {
+         profile = "GuiTextProfile";
+         horizSizing = "right";
+         vertSizing = "bottom";
+         position = "8 30";
+         extent = "124 18";
+         minExtent = "8 2";
+         visible = "1";
+         text = "Change Log for RTB vXX:";
+         maxLength = "255";
+      };
+   };
+};
+//--- OBJECT WRITE END ---

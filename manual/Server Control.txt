@@ -1,0 +1,13 @@
+<font:Palatino Linotype:24>Server Control<font:Palatino Linotype:18>
+The Server Control System allows you and your Super Admins to administrate your server's settings. It can be accessed by pressing the Server Control button on your Admin Menu.
+
+<lmargin:20><font:Palatino Linotype Bold:20>Server Options<font:Palatino Linotype:18>
+This panel allows you to view and modify most of the server preferences. You can click on a setting name to view a description about it.
+
+The Notify Users checkbox will list all the settings you changed to the players in the server, unticking it will just display "Name has updated the server settings."
+
+<font:Palatino Linotype Bold:20>Admin<font:Palatino Linotype:18>
+The Admin Section allows you to change your Auto Admin list and give people temporary admin or super admin. The list on the left is all the entries on your auto-admin list and the list on the right is a list of the players in the server and whether they're admin or super admin.
+
+<font:Palatino Linotype Bold:20>Preferences<font:Palatino Linotype:18>
+This is a list of your add-ons which have their own preferences. You can change them and then Save. The preferences with a * after them require you to restart the server for the preference to take effect.

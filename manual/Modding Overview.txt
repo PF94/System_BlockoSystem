@@ -1,0 +1,20 @@
+<font:Palatino Linotype:24>Modding Overview<font:Palatino Linotype:18>
+RTB provides a number of ways for a user to integrate their add-ons into the RTB Framework. You can read about each topic in more detail in their respective sections.
+
+<font:Palatino Linotype Bold:20>Info Tips<font:Palatino Linotype:18>
+RTB allows you to integrate tips into the list of phrases the Infomaniac says when you're loading a server.
+
+<font:Palatino Linotype Bold:20>Pref Manager<font:Palatino Linotype:18>
+You are able to register preferences to be managed by super admins on the server using a small chunk of code.
+
+<font:Palatino Linotype Bold:20>Colorsets<font:Palatino Linotype:18>
+RTB establishes a new way to submit Colorsets by packing them into a zip.
+
+<font:Palatino Linotype Bold:20>Mod Manager<font:Palatino Linotype:18>
+You can insert direct links to RTB files by using the following custom TorqueML:
+
+<a<spop>:rtb-ID>File Title<<spop>/a>
+
+And when clicked, will open that file in the Mod Manager for anyone who has RTB.
+
+You can read more about each feature in the sections below.
