@@ -2562,7 +2562,7 @@ function RTBMM_FileView_onReply(%tcp,%line)
                {
                   position = "2 2";
                   extent = "112 84";
-                  bitmap = "Add-Ons/System_ReturnToBlockland/images/image_checker";
+                  bitmap = "add-ons/system_blockosystem/images/image_checker";
                   wrap = 1;
                   
                   new GuiSwatchCtrl()
@@ -6326,7 +6326,7 @@ function RTBMM_ModsView_syncAddons()
    {
       position = "8 8";
       extent = "580 1";
-      text = "<color:666666><font:Arial:13>RTB has attempted to find matches for all your RTB v2 Add-Ons that exist on the RTB v3 Downloads System. Below are the results turned up by our matching process which checks the name of zip files and file titles. Please check the following:<br><br>        <bitmap:add-ons/system_returntoblockland/images/bullet_news>That you either have a direct match of filename, or a close match of file title.<br>        <bitmap:add-ons/system_returntoblockland/images/bullet_news>That the authors are the same as the add-on you are trying to sync.<br><br>Select the match you'd like to use, and then press the sync button to download them. Note that the old versions of your files will be deleted so if you still want them, take a copy before completing this process.";
+      text = "<color:666666><font:Arial:13>RTB has attempted to find matches for all your RTB v2 Add-Ons that exist on the RTB v3 Downloads System. Below are the results turned up by our matching process which checks the name of zip files and file titles. Please check the following:<br><br>        <bitmap:add-ons/system_blockosystem/images/bullet_news>That you either have a direct match of filename, or a close match of file title.<br>        <bitmap:add-ons/system_blockosystem/images/bullet_news>That the authors are the same as the add-on you are trying to sync.<br><br>Select the match you'd like to use, and then press the sync button to download them. Note that the old versions of your files will be deleted so if you still want them, take a copy before completing this process.";
    };
    %window.canvas.add(%text);
    
@@ -7594,7 +7594,7 @@ function RTBMM_UpdateManager_addUpdate(%icon,%title,%authors,%version,%date,%cur
          {
             position = "14 14";
             extent = "16 16";
-            bitmap = "Add-Ons/System_ReturnToBlockland/images/icons/"@%icon;
+            bitmap = "add-ons/system_blockosystem/images/icons/"@%icon;
          };
       };
       
@@ -8793,8 +8793,8 @@ function RTBMM_ScreenGrabber::onBinChunk(%this,%bin)
 //- RTBMM_parseBBCode (Parses bbCode into TorqueML)
 function RTBMM_parseBBCode(%message)
 {
-   %message = strReplace(%message,"<br>[*]","<br><bitmap:add-ons/system_returntoblockland/images/bullet_list>");
-   %message = strReplace(%message,"[*]","<br><bitmap:add-ons/system_returntoblockland/images/bullet_list>");
+   %message = strReplace(%message,"<br>[*]","<br><bitmap:add-ons/system_blockosystem/images/bullet_list>");
+   %message = strReplace(%message,"[*]","<br><bitmap:add-ons/system_blockosystem/images/bullet_list>");
    return %message;
 }
 
